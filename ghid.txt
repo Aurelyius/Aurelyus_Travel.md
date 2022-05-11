@@ -1,0 +1,22 @@
+
+####forma principala pentru a adauga un pop-up#####
+
+<div id="aboutlack" class="popup">
+    <a href="#headermenu" class="popup__area"></a>
+    <div class="popup__body">
+      <div class="popup__content popup_form">
+        <a href="#headermenu" class="popup__close  close_logare"><i class="fa-solid fa-circle-xmark"></i></a>
+          <div class="container_form">
+            
+
+
+            <div class="bannalp__body">
+              
+                
+            </div>
+
+            
+          </div>    
+      </div>
+    </div>
+</div>
