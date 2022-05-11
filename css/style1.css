@@ -1,0 +1,351 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.block1 { 
+	position: relative;
+	min-height: 100vh;
+	background: url('../img/img2.jpg') center/ cover no-repeat ;
+ }
+.block2 {
+	width: 100%;
+	height: 500px;
+	background: url('../img/swis.jpg') center/ cover no-repeat fixed;
+	color: white;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	font-size: 40px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px #000;
+
+}
+.block3{ 
+	min-height: 100vh;
+	background-color: #061b33;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ }
+
+.gallery_item{
+	position: relative;
+	max-width: 500px;
+	background-color: #fff;
+}
+.gallery_item img{
+	max-width: 100%;
+	height: auto;
+}
+.gallery_item .text{
+	padding: 10px 0;
+	text-align: center;
+}
+.gallery_item .text.title1{
+	color: #111;
+}
+.gallery_item .text p{
+	margin: 20px 0;
+}
+.gallery_item .text .butt_bus a{
+	text-decoration: none;
+	display: inline-block;
+	color: #111;
+	border: 1px solid #111;
+	padding: 10px 20px;
+	transition: .5s all ease;
+}
+.price_euro, .butt_bus{
+	display: inline-block;
+}
+
+.gallery_item .text .butt_bus a:hover{
+	background-color: #FE9001;
+	border-color: #FE9001;
+	color: #fff;
+}
+.days{
+	display: inline-block;
+	border: 2px solid #000;
+	padding: 10px 20px;
+	color: orangered;
+	font-weight: bold;
+}
+.price1{
+	font-size: 25px;
+	font-weight: bold;
+	color: orangered;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.block4 {
+	width: 100%;
+	height: 500px;
+	background: url('../img/swis2.jpg') center/ cover no-repeat fixed;
+	color: white;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	font-size: 40px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px #000;
+
+}
+
+.block5 { 
+	min-height: 100vh;
+	background-color: #061b33;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ }
+
+ .star{
+ 	color: yellow;
+ }
+
+ .gallery-item{
+	position: relative;
+	max-width: 500px;
+	background-color: #493D26 ;
+}
+.text-hotel {
+	color: #fff;
+}
+.gallery_item .text .butt-bus a{
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	border: 3px solid #fff;
+	padding: 10px 20px;
+	transition: .5s all ease;
+}
+.block6 {
+	width: 100%;
+	height: 500px;
+	background: url('../img/img1.jpg') center/ cover no-repeat fixed;
+	color: white;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	font-size: 40px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px #000;
+
+}
+.block7 {
+	min-height: 100vh;
+	width: 100%;
+	background-color: #061b33;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+
+}
+.block8{
+	width: auto;
+	min-height: 500px;
+	padding: 50px;
+	color: #fff;
+	background-color: #292828;
+}
+.footer{
+	width: 350px;
+	height: auto;
+	margin: 30px;
+	display: inline-block;
+	
+	
+
+}
+.contacte_s{
+font-weight: bold;
+font-size: 18px;
+}
+.contacte_s i{
+	font-size: 30px;
+	margin: 20px 10px;
+}
+.contacte{
+	color: #D6D6D6;
+}
+.socialmedia{
+	margin-top: 20px;
+}
+.socialmedia i{
+	font-size: 40px;
+}
+
+.colaborare{
+	position: absolute;
+
+}
+.copiright{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 17px;
+	margin: 20px;
+	text-align: center;
+	
+}
+.copiright i{
+	font-size: 25px;
+	
+}
+.telegramsend{
+	display: inline-block;
+}
+.telegramsend h2{
+	margin-bottom: 10px;
+}
+.telegramsend textarea{
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+	font-size: 16px;
+}
+.telegramsend button{
+	height: 50px;
+	width: 100px;
+	box-shadow: 4px 5px 8px #fff;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.telegramsend button:hover{
+	cursor: pointer;
+	background-color: lightgray;
+	border: none;
+}
+.block7_description{
+ font-size: 35px;
+ color: #fff;
+ text-align: center;
+ font-weight: bold;
+ margin-top: 60px;
+ margin-bottom: 20px;
+ position: relative;
+}
+.img_ski{
+	max-width: 1100px;
+	height: auto;
+	margin: 0px auto;
+	text-align: center;
+
+
+}
+.img_ski img{
+	max-width: 100%;
+}
+
+.content{
+	height:40px;
+	width: 100%;
+	position: fixed;
+	z-index: 4;
+}
+
+.bannalp{
+	color: white;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	bottom: 20%;
+	left: 10%;
+	height: 400px;
+	width: auto;
+	position: absolute;
+	background: url('../img/sale.png') 0 0 / 20% auto no-repeat ;
+}
+.bannalp h1{
+	font-size: 100px;
+}
+.bannalp p{
+	font-size: 25px;
+}
+
+.butt {
+	width: 130px;
+	height: 65;
+	text-align: center;
+	line-height: 65px;
+	margin: 10px auto;
+	position: relative;
+	cursor: pointer;
+
+}
+.butt a{
+	text-decoration: none;
+}
+svg{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+svg rect{
+	stroke: #00FFFF;
+	stroke-width: 3;
+	transition: 0.8s;
+	stroke-dasharray: 400, 0;
+}
+.butt:hover svg rect{
+	stroke-width: 7;
+	stroke-dasharray: 35, 245;
+	stroke-dashoffset: 38;
+}
+
+.svgbutt{
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+	font-size: 20px ;
+
+
+}
+.svgbutt a{
+	text-decoration: none;
+	color: #fff;
+}
+/*------------------------------------------------------media----------------------------*/
+@media all and (max-width: 1126px){
+	
+@media all and (max-width: 846px){
+	.bannalp h1{
+	font-size: 80px;
+}
+.bannalp p{
+	font-size: 20px;
+}
+
+@media all and (max-width: 510px){
+	.gallery_item{
+		max-width: 350px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

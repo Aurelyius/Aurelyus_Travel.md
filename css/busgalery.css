@@ -1,0 +1,131 @@
+      html,
+      body {
+        
+        
+      }
+
+      body {
+        background: #061b33;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        max-width:1100px;
+        height: auto;
+        margin: 0px auto;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+
+      .swiper {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .content__pagebus{
+        color: #fff ;
+        margin: 40px auto;
+        width: 90%;
+        position: relative;
+
+      }
+      .content__pagebus ul{
+        line-height: 1.5;
+      }
+    
+    .program__traseu{
+      margin: 10px 0;
+      background-color: rgba(255, 255, 255, .2);
+      width: 69%;
+      display: inline-block;
+      letter-spacing: 1px;
+
+    }
+    
+  
+    
+    .servicii_incluse{
+      margin: 10px 0;
+      background-color: rgba(255, 255, 255, .2);
+      width: 30%; 
+      display: inline-block;
+      letter-spacing: 1px;
+      top: 0;
+      right: 0;
+      position: absolute;
+
+
+    }
+    .home{
+      padding: 10px ;
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 2;
+      
+
+    }
+    .home a{
+      text-decoration: none;
+      color: #fff;
+      padding: 10px 20px;
+      border: 3px solid #fff;
+
+    }
+    .green{
+      color: #03FC1A ;
+    }
+    .red{
+      color: red;
+    }
+
+  @media all and (max-width: 700px){
+    .home{
+      top: 5px;
+      left: 5px;
+
+    }
+    .home a{
+      background-color: rgba(0, 0, 0, 0);
+    }
+
+    .servicii_incluse{
+      display: block;
+      width: 100%;
+      position: relative;
+    }
+
+    .program__traseu{
+      display: block;
+      width: 100%;
+    }
+

@@ -1,0 +1,626 @@
+*,*:before,*:after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ .page {
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 100%;
+ 	top: 0;
+ 	left: 0;
+ }
+
+.parallax {
+	position: relative;
+	height: 100%;
+}
+.parallax__montain {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.parallax__montain__1 {
+	background:url('../img/m_1.png') 0 0 / cover  no-repeat;
+}
+.parallax__montain__2 {
+	z-index: 3;
+	background:url('../img/m_2.png') bottom right / 45% no-repeat;
+	pointer-events: none;
+}
+.parallax__montain__3 {
+	z-index: 3;
+	background:url('../img/m_3.png') bottom left / 100% no-repeat;
+	pointer-events: none;
+}
+.parallax__fog {
+background:url('../img/fog_1.png') bottom  / 100% no-repeat;
+position: fixed;
+height: 100%;
+width: 100%;
+z-index: 4;
+top: 0;
+left: 0;
+pointer-events: none;
+}
+.parallax__text{
+	height: 150px;
+	width: 150px;
+	background-color: red;
+	margin: 15% auto;
+	text-align: center;
+	background:url('../img/swipe .png') bottom  / 100% no-repeat;
+	pointer-events: none;
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+.content {
+	position: relative;
+	
+	min-height: 1200px;
+
+}
+.content__body {
+	max-width: 80%;
+	margin: 0px auto;	
+}
+.content__header {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	padding: 0px 20 px;
+	
+
+
+
+}
+.content__title {
+	font-size: 80px;
+
+	
+}
+.content__subtitle {
+	font-size: 40px;
+	
+}
+.content__article {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 25px;
+	font-size: 18px;
+	line-height: 24px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	
+	
+
+}
+.flag__sw,img{
+	width: auto;
+	height: 150px;
+}
+.block_1 {
+ width: 100%;
+ top: 0;
+ height: 80px;
+ background: rgba(45, 36, 41, 0.6);
+ position: sticky;
+ color: white;
+
+ margin-bottom: 10px;
+ z-index: 2;
+}
+.block_1 p {
+	font-size: 35px ;
+	font-weight: 800px;
+	line-height: 80px;
+	text-align: center;
+}
+.block_1 a{
+	color: white;
+	text-decoration: none;
+	padding: 20px 0px;
+}
+.block_1 :hover{
+	 background: rgba(45, 36, 41, 0.9);
+	 box-shadow: 5px 10px 18px #888888;x
+}
+
+
+.align__left{
+	height: 500px;
+	width: 98%;
+	
+	margin-bottom: 10px;
+	left: -10%;
+	position: relative;
+}
+
+.align__right{
+	height: 500px;
+	width: 98%;
+	margin-bottom: 10px;
+	right: -10%;
+	position: relative;
+	
+}
+
+.tex_description_r{
+	width: 49%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	overflow: scroll;
+	float: left;
+
+	overflow-x: auto;
+	padding-top: 10px;
+	
+
+}
+.tex_description_r p::first-letter{
+	font-size: 35px;
+	font-weight: bold;
+}
+.tex_description_l p::first-letter{
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.img_items_r{
+	width: 49%;
+	height: 100%;
+	background-color: lightblue;
+	position: relative;
+	  box-shadow: 5px 10px 8px #888888;
+	display: inline-block;
+	float: right;
+	
+}
+.tex_description_l{
+	width: 49%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	display: inline-block;
+	float: right;
+	overflow: scroll;
+	
+	overflow-x: auto;
+	padding-top: 10px;
+
+
+
+}
+
+.img_items_l{
+	width: 49%;
+	height: 100%;
+	background-color: lightblue;
+	position: relative;
+	  box-shadow: 5px 10px 8px #888888;
+	display: inline-block;
+	float: left;
+	
+}
+.image1{
+	background: url('../img/Interlaken.jpg') center ;
+	height: 500px;
+	overflow: hidden;
+	background-size: cover;
+
+}
+.image2{
+	background: url('../img/Jungfrau-Region.jpg') center ;
+	height: 500px;
+	overflow: hidden;
+	background-size: cover;
+
+}
+.image3{
+	background: url('../img/Lucerne.jpg') center ;
+	height: 500px;
+	overflow: hidden;
+	background-size: cover;
+
+}
+.image4{
+	background: url('../img/Geneva.jpg') center ;
+	height: 500px;
+	overflow: hidden;
+	background-size: cover;
+
+}
+.image5{
+	background: url('../img/Zurich.jpg') center ;
+	height: 500px;
+	overflow: hidden;
+	background-size: cover;
+
+}
+.image6{
+	background: url('../img/Zermatt.jpg') center ;
+	height: 500px;
+	overflow: hidden;
+	background-size: cover;
+
+}
+/*meniu adaptiv mai mic de 1000px----------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1000px){
+
+.content {
+	position: relative;
+	
+	min-height: 1200px;
+
+}
+.content__body {
+	max-width: 90%;
+	margin: 0px auto;
+	
+	
+}
+.content__header {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	padding: 0px 20 px;
+	
+
+
+
+}
+.content__title {
+	font-size: 50px;
+
+	
+}
+.content__subtitle {
+	font-size: 25px;
+	
+}
+.content__article {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 25px;
+	font-size: 18px;
+	line-height: 24px;
+	
+	
+
+}
+.flag__sw,img{
+	width: auto;
+	height: 100px;
+}
+.block_1 {
+ width: 100%;
+ top: 0;
+ height: 80px;
+ background: rgba(45, 36, 41, 0.6);
+ position: sticky;
+ color: white;
+ z-index: 2;
+ margin-bottom: 10px;
+ 
+
+}
+
+.block_1 p {
+	font-size: 35px ;
+	font-weight: 800px;
+	line-height: 80px;
+	text-align: center;
+}
+.block_1 a{
+	color: white;
+	text-decoration: none;
+}
+.block_1 :hover{
+	 background: rgba(45, 36, 41, 0.9);
+	 box-shadow: 5px 10px 18px #888888;x
+}
+
+
+.align__left{
+	height: 1000px;
+	width: 100%;
+	
+	margin-bottom: 10px ;
+	margin-top: 10px;
+	left: 0;
+	position: relative;
+}
+
+.align__right{
+	height: 1000px;
+	width: 100%;
+	
+	margin-bottom: 10px;
+	right: 0;
+	position: relative;
+	margin: 0px auto;
+}
+
+.tex_description_r{
+	width: 100%;
+	height: 50%;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	top: 50%;
+	overflow: scroll;
+	
+	overflow-x: auto;
+	
+	
+
+
+
+}
+
+.img_items_r{
+	width: 100%;
+	height: 50%;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	bottom: 50%;
+	z-index: 10;
+	
+	
+	
+}
+.tex_description_l{
+	width: 100%;
+	height: 50%;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	overflow: scroll;
+	
+	overflow-x: auto;
+
+
+
+}
+
+.img_items_l{
+	width: 100%;
+	height: 50%;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	
+	
+	
+
+}
+.image1{
+	background: url('../img/Interlaken.jpg') center ;
+	height: 500px;
+	width: 100%;
+	overflow: hidden;
+	background-size: cover;
+
+}
+.image2{
+	background: url('../img/Jungfrau-Region.jpg') center ;
+	height: 500px;
+	width: 100%;
+	overflow: hidden;
+	background-size: cover;
+
+}
+.image3{
+	background: url('../img/Lucerne.jpg') center ;
+	height: 500px;
+	overflow: hidden;
+	background-size: cover;
+
+}
+.image4{
+	background: url('../img/Geneva.jpg') center ;
+	height: 500px;
+	overflow: hidden;
+	background-size: cover;
+
+}
+.image5{
+	background: url('../img/Zurich.jpg') center ;
+	height: 500px;
+	overflow: hidden;
+	background-size: cover;
+
+}
+.image6{
+	background: url('../img/Zermatt.jpg') center ;
+	height: 500px;
+	overflow: hidden;
+	background-size: cover;
+
+}
+
+/*meniu adaptiv mai mic de 600px--------------------------------------------------------------------------*/
+@media only screen and (max-width: 600px){
+
+.content {
+	position: relative;
+	min-height: 1200px;
+
+}
+.content__body {
+	max-width: 95%;
+	margin: 0px auto;
+
+	
+}
+.content__header {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	padding: 0px 20 px;
+
+
+
+
+}
+.content__title {
+	font-size: 50px;
+
+	
+}
+.content__subtitle {
+	font-size: 25px;
+	
+}
+.content__article {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 25px;
+	font-size: 18px;
+	line-height: 24px;
+	
+	
+
+}
+.flag__sw,img{
+	width: auto;
+	height: 100px;
+}
+.block_1 {
+ width: 100%;
+ top: 0;
+ height: 80px;
+ background: rgba(45, 36, 41, 0.6);
+ position: sticky;
+ color: white;
+ z-index: 2;
+ margin-bottom: 10px;
+ font-size: 12px;
+
+
+}
+.block_1 p {
+	font-size: 25px ;
+	font-weight: 800px;
+	line-height: 80px;
+	text-align: center;
+}
+.block_1 a{
+	color: white;
+	text-decoration: none;
+}
+.block_1 :hover{
+	 background: rgba(45, 36, 41, 0.9);
+	 box-shadow: 5px 10px 18px #888888;x
+}
+
+
+.align__left{
+	height: 1000px;
+	width: 100%;
+	margin-bottom: 10px;
+	left: 0;
+	position: relative;
+}
+
+.align__right{
+	height: 1000px;
+	width: 100%;
+	margin-bottom: 10px;
+	right: 0;
+	position: relative;
+}
+
+.tex_description_r{
+	width: 100%;
+	height: 50%;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	top: 50%;
+	overflow: scroll;
+	z-index: 10;
+	overflow-x: auto;
+	
+	
+
+
+
+}
+
+.img_items_r{
+	width: 100%;
+	height: 50%;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	bottom: 50%;
+
+	
+	
+	
+}
+.tex_description_l{
+	width: 100%;
+	height: 50%;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	overflow: scroll;
+	
+	overflow-x: auto;
+	
+
+
+
+}
+
+.img_items_l{
+	width: 100%;
+	height: 50%;
+	background-color: lightblue;
+	position: relative;
+
+	
+
+}
+.image1{
+	background: url('../img/Interlaken.jpg') center ;
+	height: 500px;
+	width: 100%;
+	overflow: hidden;
+	background-size: cover;
+
+}
+.image2{
+	background: url('../img/Jungfrau-Region.jpg') center ;
+	height: 500px;
+	width: 100%;
+	overflow: hidden;
+	background-size: cover;
+
+}
+.image3{
+	background: url('../img/Lucerne.jpg') center ;
+	height: 500px;
+	overflow: hidden;
+	background-size: cover;
+
+}
+.image4{
+	background: url('../img/Geneva.jpg') center ;
+	height: 500px;
+	overflow: hidden;
+	background-size: cover;
+
+}
+.image5{
+	background: url('../img/Zurich.jpg') center ;
+	height: 500px;
+	overflow: hidden;
+	background-size: cover;
+
+}
+.image6{
+	background: url('../img/Zermatt.jpg') center ;
+	height: 500px;
+	overflow: hidden;
+	background-size: cover;
+
+}
